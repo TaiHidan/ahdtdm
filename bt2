@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+int main(void){
+   int n,m;
+   printf("Nhap so n : ");
+   scanf("%d", &n);
+  
+   for( int i=1;i<n ;i++){
+        m = sqrt(i);
+       if(m*m == i)
+        printf("%d ", i);
+   }
+}
